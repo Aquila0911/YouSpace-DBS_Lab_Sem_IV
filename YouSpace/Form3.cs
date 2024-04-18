@@ -25,7 +25,7 @@ namespace YouSpace
             conn.Open();
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "INSERT INTO USERS (USERID, NAME, EMAIL, PASSWORD) VALUES ('" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox4.Text + "')";
+            cmd.CommandText = "INSERT INTO USERS (USER_ID, NAME, EMAIL, PASSWORD) VALUES ('" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox4.Text + "')";
             cmd.ExecuteNonQuery();
             conn.Close();
             MessageBox.Show("User registered successfully!");

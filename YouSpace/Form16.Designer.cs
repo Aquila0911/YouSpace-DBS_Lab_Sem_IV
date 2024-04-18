@@ -103,7 +103,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(1018, 263);
+            this.label9.Location = new System.Drawing.Point(1579, 254);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(28, 16);
             this.label9.TabIndex = 84;
@@ -139,7 +139,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1018, 644);
+            this.label8.Location = new System.Drawing.Point(1422, 644);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 16);
             this.label8.TabIndex = 88;
@@ -173,11 +173,12 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 91;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // button13
             // 
             this.button13.ForeColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(1619, 941);
+            this.button13.Location = new System.Drawing.Point(1668, 879);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(262, 56);
             this.button13.TabIndex = 92;

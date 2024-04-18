@@ -46,7 +46,6 @@ namespace YouSpace
             {
                 player.Stop();
             };
-
         }
 
         
@@ -61,12 +60,26 @@ namespace YouSpace
             // Open form 5
             Form5 f5 = new Form5();
             f5.Show();
-
+            this.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            string soundPath = @"C:\Users\siddh\OneDrive\Desktop\YouSpace-DBS_Lab_Sem_IV\resources\songs\lana2.wav";
+            SoundPlayer player = new SoundPlayer(soundPath);
+            player.Play();
 
+            // Closing the form stops the music
+            this.FormClosing += (s, ev) =>
+            {
+                player.Stop();
+            };
+
+            // Pause on pressing the picturebox again
+            pictureBox3.Click += (s, ev) =>
+            {
+                player.Stop();
+            };
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -74,6 +87,26 @@ namespace YouSpace
             // Open form10
             Form10 f10 = new Form10();
             f10.Show();
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            string soundPath = @"C:\Users\siddh\OneDrive\Desktop\YouSpace-DBS_Lab_Sem_IV\resources\songs\lana3.wav";
+            SoundPlayer player = new SoundPlayer(soundPath);
+            player.Play();
+
+            // Closing the form stops the music
+            this.FormClosing += (s, ev) =>
+            {
+                player.Stop();
+            };
+
+            // Pause on pressing the picturebox again
+            pictureBox4.Click += (s, ev) =>
+            {
+                player.Stop();
+            };
         }
     }
 }

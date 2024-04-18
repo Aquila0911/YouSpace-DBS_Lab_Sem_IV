@@ -77,6 +77,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 73;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label1
             // 
@@ -99,7 +100,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1008, 644);
+            this.label3.Location = new System.Drawing.Point(1659, 644);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 16);
             this.label3.TabIndex = 77;
@@ -108,7 +109,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1008, 257);
+            this.label4.Location = new System.Drawing.Point(1575, 257);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 16);
             this.label4.TabIndex = 78;
@@ -189,7 +190,7 @@
             // button13
             // 
             this.button13.ForeColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(1617, 941);
+            this.button13.Location = new System.Drawing.Point(1738, 898);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(262, 56);
             this.button13.TabIndex = 88;

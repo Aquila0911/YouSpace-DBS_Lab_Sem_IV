@@ -16,5 +16,21 @@ namespace YouSpace
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Open form14
+            Form14 form14 = new Form14();
+            form14.Show();
+            this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Open form5
+            Form5 form5 = new Form5();
+            form5.Show();
+            this.Close();
+        }
     }
 }

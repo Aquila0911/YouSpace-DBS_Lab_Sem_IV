@@ -77,6 +77,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // checkedListBox1
             // 
@@ -213,6 +214,7 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "add";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -222,6 +224,7 @@
             this.button2.TabIndex = 23;
             this.button2.Text = "add";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -231,6 +234,7 @@
             this.button3.TabIndex = 24;
             this.button3.Text = "add";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -240,6 +244,7 @@
             this.button4.TabIndex = 25;
             this.button4.Text = "add";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -249,6 +254,7 @@
             this.button5.TabIndex = 26;
             this.button5.Text = "add";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -258,6 +264,7 @@
             this.button6.TabIndex = 27;
             this.button6.Text = "add";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -343,7 +350,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1015, 254);
+            this.label4.Location = new System.Drawing.Point(1588, 254);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 16);
             this.label4.TabIndex = 37;
@@ -361,7 +368,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1015, 641);
+            this.label6.Location = new System.Drawing.Point(1653, 641);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(28, 16);
             this.label6.TabIndex = 39;
@@ -423,12 +430,13 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(1609, 940);
+            this.button13.Location = new System.Drawing.Point(1682, 898);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(262, 56);
             this.button13.TabIndex = 46;
             this.button13.Text = "buy now";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // Form10
             // 

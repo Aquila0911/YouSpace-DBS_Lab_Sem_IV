@@ -82,16 +82,18 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(931, 374);
+            this.button1.Location = new System.Drawing.Point(1005, 395);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(146, 57);
             this.button1.TabIndex = 9;
             this.button1.Text = "About Him";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -102,6 +104,7 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "Merchandise";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -112,6 +115,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "Events";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form15
             // 

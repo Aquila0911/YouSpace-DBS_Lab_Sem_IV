@@ -25,12 +25,12 @@ namespace YouSpace
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // write a sql query to check if user entered correct username and password from users table
+            // Write a sql query to check if user entered correct username and password from users table
             OracleConnection conn = new OracleConnection("DATA SOURCE=localhost:1521/xe;PASSWORD=password;USER ID=SYSTEM");
             conn.Open();
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "select * from users where userid='" + textBox1.Text + "' and password='" + textBox2.Text + "'";    
+            cmd.CommandText = "select * from users where user_id='" + textBox1.Text + "' and password='" + textBox2.Text + "'";    
             OracleDataReader dr = cmd.ExecuteReader();
             int count = 0;
             while (dr.Read())
@@ -42,13 +42,13 @@ namespace YouSpace
                 MessageBox.Show("Login Successful");
                 Form5 f5 = new Form5();
                 f5.Show();
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Login Failed");
             }
             conn.Close();
-
         }
 
         private void label3_Click(object sender, EventArgs e)
