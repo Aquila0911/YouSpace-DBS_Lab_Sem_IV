@@ -38,5 +38,10 @@ namespace YouSpace
                 MessageBox.Show("Passwords do not match");
             }
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
